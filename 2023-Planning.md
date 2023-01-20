@@ -4,7 +4,7 @@
 
 Attending: Marsh G. , Agued Gama, Jesse, Amber Bennett, Chris Wood, Kevin Swiber, Neal Caidin, Stu Waldron
 
-## Strategy and Goals
+## Strategy and Goals Discussion
 
 * Marsh: We are still working on what makes the community resonate 
 * What is a healthy community? Engagement? Numbers of new members? We need more involvement and people participating. AsyncAPI and GraphQL have done a good job, they are co-evolving with tooling. We took the spec out of Swagger, so we are a standard, which is different from software.

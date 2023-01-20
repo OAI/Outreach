@@ -1,6 +1,6 @@
 ## 📢 Welcome
 
-The OpenAPI Marketing Group is an effort to further the reach and impact of the
+The OpenAPI Outreach Committee is an effort to further the reach and impact of the
 [OpenAPI Specification](https://spec.openapis.org/oas/latest.html).
 
 - Led by passionate volunteers. 🙋
@@ -14,9 +14,9 @@ This repository contains
 welcoming both transparency and contribution. Feel free to
 [start your own discussion](https://github.com/OAI/Marketing/discussions)!
 
-## 🙌 Join the OpenAPI Marketing Group
+## 🙌 Join the OpenAPI Outreach Committee
 
-Feel free to indicate interest in joining the OpenAPI Marketing Group community
+Feel free to indicate interest in joining the OpenAPI Outreach Committee community
 activities by
 [creating a new issue](https://github.com/OAI/Marketing/issues/new) in this
 repository with the `invitation-request` label. This will get you:

@@ -2,7 +2,9 @@
 
 ### OpenAPI Outreach Committee - Fri, Jan 13, 2023
 
-Attending: Marsh G. , Agued Gama, Jesse, Amber Bennett, Chris Wood, Kevin Swiber, Neal Caidin, Stu Waldron
+Attending: Marsh G. , Agueda Gama, Jesse, Amber Bennett, Chris Wood, Kevin Swiber, Neal Caidin, Stu Waldron
+
+_This document is a work in progress_
 
 ## Strategy and Goals Discussion
 

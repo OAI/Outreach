@@ -9,19 +9,19 @@ Attending: Marsh G. , Agued Gama, Jesse, Amber Bennett, Chris Wood, Kevin Swiber
 * Marsh: We are still working on what makes the community resonate 
 * What is a healthy community? Engagement? Numbers of new members? We need more involvement and people participating. AsyncAPI and GraphQL have done a good job, they are co-evolving with tooling. We took the spec out of Swagger, so we are a standard, which is different from software.
 * Kevin: difference between open source community and open standards. Open source software tends to have more iterations. A lot is done via email. Should we bring in more tools?
-* Stu: We are still struggling with finding relevance 
+* Stu: We are still struggling with finding relevance meaning the value to the various types of members. Evident relevance to tool and related solution vendors, limited relevance to developers at large and their management (funding authority). The latter sees benefit to using the spec but not to actively contributing in the ongoing development. 
 
 ## Additional thoughts from the January 20, 2023 meeting
 * Neal: thoughts on OAI challenges - perhaps can lead to goals?
 * Swagger vs OAS - is the terminology still obfuscating?
-   * Stu: Not sure if this is a goal, more of a challenge. As an organization, we’re not moving beyond OAS and talking about other APIS. SIGs do have latitude. What is doable within the constraints of the OAS?
+   * Stu: Not sure if this is a goal, more of a challenge. As an organization, we've talked about efforts of value beyond the spec. There are many issues concerning the creation and publication of APIs to address. Possible solutions stray beyond the spec. While SIGs do have some latitude, do we state as a goal to address issues beyond the spec?
 * Neal: First step is putting ideas on paper, being able to share and get feedback from the community
 * People carving out time of their busy day. Organizations not allocating time for them to work on OAI/OAS
    * Stu: Goes with the value prop, they are making them a greater investment by contributing labor, should have a positive ROI for them
 * We haven't been as open as we need to, so conversations happening elsewhere
    * Things have improved over the last year. We've opened up our Slack workspace and started a Discord channel. But these might need tending.
 * Tooling - dependency on ecosystem tooling inhibits adoption of latest spec version
-   * Stu: This is a value prop problem again. Value not understood by vendors that are making the tools
+   * Stu: This is a value prop problem again. Value not perceived by vendors that are making the tools. The cost/risk of upgrading apparently not justified with sufficient ROI.
 * Value proposition of being an OAI member. Are we not articulating the value proposition well enough, or do we need to improve the value prop for membership?
    * Stu: We should be looking at clarifying the value prop for upgrading to 3.1. Is there something we can do to make the path to adoption easier?
 

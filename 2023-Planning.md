@@ -40,10 +40,14 @@ Attending: Marsh G. , Agued Gama, Jesse, Amber Bennett, Chris Wood, Kevin Swiber
 * Kevin: Very interested in hearing what Linux Foundation is doing with open standards
 * Marsh: Yes, to case studies since incentives drive case studies
 
-Annual report 
+## Annual report 
 * How APIs are being used? Is a huge project, previously considered hiring a firm to do this, problem is how to you get the data, we don’t know tooling, can’t tell - We could do survey but it needs to be more than just a 100 responses
 What is the adoption rate of each spec?
 * Chris: massive undertaking in terms of gathering data from the community. Not specific of what they are trying to find on who uses the OpenAPI spec and how - have a basis for a database
 * More notes [here](https://docs.google.com/document/d/19gLkynTLTJnd4bnHr-dCqLh544M2lAlL1VIIQJTEsw0/edit)
+
+## OpenAPI in a Box (contributed by Stu Waldron - draft high level version)
+
+* With the direction to not have a big once a year meeting and look to tag along with other conferences we need OAS in a box. I mean that literally. We talk about soft collateral like handouts or presentations anyone can grab. But we also need easy to use booth material such as backdrops, signage and yes, tchotchkes.  Something you can ship to me when I'm off to a travel conference or Amber when she's at an IT conference.  There are of course costs and logistics to work out. But if we really want to get more exposure by being present at many conferences, we need more than handouts. 
 
 ![](img/outreach-planning-2023.png)

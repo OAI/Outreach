@@ -38,7 +38,7 @@ of experience, education, socio-economic status, nationality, personal
 appearance, race, religion, or sexual identity and orientation.
 
 The
-[OpenAPI Initiative Code of Conduct](https://github.com/OAI/OpenAPI-Specification/blob/main/CODE_OF_CONDUCT.md)
+[OpenAPI Initiative Code of Conduct](https://github.com/OAI/Outreach?tab=coc-ov-file)
 applies to all online and in-person interactions.
 
 ## 💡 About the OpenAPI Initiative

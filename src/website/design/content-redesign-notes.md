@@ -14,7 +14,7 @@ The following are the drop downs we should aim for.
 Learn
 ├── What Is OpenAPI? (Relocate existing page).
 ├── [Learn About OAI](https://learn.openapis.org/)
-├── [OAI Courses](https://training.linuxfoundation.org/full-catalog/?_sf_s=openapi)
+├── [Online Courses](https://training.linuxfoundation.org/full-catalog/?_sf_s=openapi)
 Specifications
 |
 ├── [OpenAPI](https://spec.openapis.org/oas)

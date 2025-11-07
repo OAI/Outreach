@@ -12,7 +12,7 @@ The following are the drop downs we should aim for.
 
 ```text
 Learn
-├── What Is OpenAPI? (Relocate existing page).
+├── What Is OpenAPI Initiative? (Relocate existing page).
 ├── [Learn About OAI](https://learn.openapis.org/)
 ├── [Online Courses](https://training.linuxfoundation.org/full-catalog/?_sf_s=openapi)
 Specifications

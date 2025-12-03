@@ -19,19 +19,23 @@ subconference, with a full agenda on December 11.
 
 Highlights of the full program at FOST include:
 
-- [Erik Wilde]() and [Frank Kilcommins]() wil be running a workshop "API
-  Management for the AI Era: Leveraging OpenAPI Standards" (registration
-  required) which gets to the heart of how you can leverage OAI specifications
-  for AI.
+- [Erik Wilde](https://www.linkedin.com/in/erikwilde/) and
+  [Frank Kilcommins](https://www.linkedin.com/in/frank-kilcommins/) wil be
+  running a workshop "API Management for the AI Era: Leveraging OpenAPI
+  Standards" (registration required) which gets to the heart of how you can
+  leverage OAI specifications for AI.
 
 - We are hosting an Executive Breakfast where you can learn more about what it
   means to be an OAI member and meet members of the community. This is an
   invite-only event, so watch your inbox!
 
 - Our subconference starts at 0915 on the Wednesday, and highlights include
-  What's New in OpenAPI 3.2 ([Lorna Mitchell]()), API Workflow Testing and
-  Mocking with a Single Arazzo Spec ([Naresh Jain]()), and Is OpenAPI still
-  relevant in the age of AI? ([Emmanuel Paraskakis]()).
+  What's New in OpenAPI 3.2
+  ([Lorna Mitchell](https://www.linkedin.com/in/lornajane/)), API Workflow
+  Testing and Mocking with a Single Arazzo Spec
+  ([Naresh Jain](https://www.linkedin.com/in/nareshjain/)), and Is OpenAPI still
+  relevant in the age of AI?
+  ([Emmanuel Paraskakis](https://www.linkedin.com/in/emmanuelparaskakis/)).
 
 2026 promises to be an exciting year and in bringing 2025 to close our OAI
 Ambassador and custodian of the OAI Track Erik Wilde puts the outlook for future
@@ -74,13 +78,16 @@ community on what the v3.2 upgrade means.
 
 Completing v3.2 means we are now looking at what could appear in our next
 version and beyond, and the team is ramping up for further releases in 2026,
-with an expected v3.3, covering improvements to Security Schemes and greater
-integration with MCP and AI protocols more generally.
+with the possibility of a v3.3, covering improvements to Security Schemes and
+greater integration with MCP and AI protocols more generally.
 
 [Henry Andrews](https://github.com/handrews) has already pulled together a
-comprehensive plan of what could be in the next version. If you want to look at
-what's in the frame, contribute ideas, or just keep in touch head over to the
-[GitHub Discussion](https://github.com/handrews) on the topic.
+comprehensive overview of contributors suggestions of what could be in the next
+version, ready for feedback from and discussion with the community. If you want
+to look at what's in the frame, contribute more ideas, or just keep in touch
+head over to the
+[GitHub Discussion](https://github.com/OAI/OpenAPI-Specification/discussions/5116)
+on the topic.
 
 > Placeholder for Arazzo updates.
 
@@ -112,7 +119,8 @@ the community. Here's a few samples of what folks are saying.
   as focusing "_...on the real pain points that show up when you scale: messy
   docs, patchy auth support, and unclear streaming behavior._"
 
-For the contributors involved in the creation of v3.2, this level of validation
+For the contributors involved in the creation of v3.2, of which there was the
+greatest number yet in OpenAPI Specification versions, this level of validation
 is vital for the ongoing development of the OpenAPI Initiative Specifications.
 Getting great feedback - good and bad - which puts the new features in context
 are critical to address new features in future versions in earnest, and
@@ -124,7 +132,9 @@ The work on the Conference website shows the power of the our community, in that
 a member organization helped bring an exciting new resource to life. We worked
 hard on revamping our member proposition this year, and next year we are hoping
 to bring exciting new features to life. If you are interest in becoming a
-member, head over to the membership page on our website to find out more.
+member, head over to the
+[membership page](https://www.openapis.org/membershipjoin) on our website to
+find out more.
 
 ### Finally
 
@@ -135,7 +145,11 @@ you use specifications published by the OpenAPI Initiative.
 Please get in touch on the Outreach channel on Slack if you would like to work
 with us to tell your story, to feature in the Ecosystem Spotlight section, or
 get involved with any of the initiatives described above. We’d also like from
-organizations, tooling makers, or community members on their reaction to our
+organizations, tooling makers, or community members for further reactions to our
 v3.2 release, and to share any stories in their adoption journey.
 
-Until next time!
+Until next time, and happy holidays!
+
+Contributors: [Chris Wood](https://linkedin.com/in/sensiblewood),
+[Erik Wilde](https://www.linkedin.com/in/erikwilde/),
+[Pavel Kornev](https://www.linkedin.com/in/pavelkornev/)

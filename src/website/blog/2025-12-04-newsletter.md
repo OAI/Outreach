@@ -67,10 +67,11 @@ landing pages across the Initiative._"
 There’s been a great reception to our OpenAPI Specification v3.2 release, with a
 great deal of coverage and interest from the community in the new features and
 capabilities. As a reminder, v3.2 provides a host of changes such as the
-refactored and improved [Tag Object](), support for the `QUERY` HTTP Method,
-support for sequential and streaming data protocols, and additional Security
-Scheme features like OAuth 2.0 Device Authorization Flow. You can find out more
-in our
+refactored and improved
+[Tag Object](https://spec.openapis.org/oas/latest.html#tag-object), support for
+the `QUERY` HTTP Method, support for sequential and streaming data protocols,
+and additional Security Scheme features like OAuth 2.0 Device Authorization
+Flow. You can find out more in our
 [blog post](https://www.openapis.org/blog/2025/09/23/announcing-openapi-v3-2)),
 which includes links to key resource to help with upgrading to v3.2. Our
 [Ecosystem Spotlight](#ecosystem-spotlight) also provides resources from the

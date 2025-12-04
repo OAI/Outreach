@@ -154,4 +154,6 @@ Until next time, and happy holidays!
 
 Contributors: [Chris Wood](https://linkedin.com/in/sensiblewood),
 [Erik Wilde](https://www.linkedin.com/in/erikwilde/),
-[Pavel Kornev](https://www.linkedin.com/in/pavelkornev/)
+[Pavel Kornev](https://www.linkedin.com/in/pavelkornev/),
+[Henry Andrews](https://github.com/handrews),
+[Lorna Mitchell](https://www.linkedin.com/in/lornajane/)

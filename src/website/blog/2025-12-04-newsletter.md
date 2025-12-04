@@ -12,10 +12,10 @@ accomplished this year as well as looking forward to 2026!
 
 ### Events News
 
-In a change from routine, in this edition of the newsletter we are starting with
-Events news as our OpenAPI Conference at FOST, the conference formerly known as
-Apidays, starts December 9! This year the OAI Track has been promoted to a full
-subconference, with a full agenda on December 11.
+We'll start this edition of the newsletter with Events news as our OpenAPI
+Conference at FOST, the conference formerly known as Apidays, starts December 9!
+This year the OAI Track has been promoted to a full subconference, with a
+complete agenda on December 11.
 
 Highlights of the full program at FOST include:
 
@@ -64,10 +64,10 @@ landing pages across the Initiative._"
 
 ### Initiative News
 
-There’s been a great reception to our OpenAPI Specification v3.2 release, with a
-great deal of coverage and interest from the community in the new features and
-capabilities. As a reminder, v3.2 provides a host of changes such as the
-refactored and improved
+There’s been a enthusiastic reception to our OpenAPI Specification v3.2 release,
+with a great deal of coverage and interest from the community in the new
+features and capabilities. As a reminder, v3.2 provides a host of changes such
+as the refactored and improved
 [Tag Object](https://spec.openapis.org/oas/latest.html#tag-object), support for
 the `QUERY` HTTP Method, support for sequential and streaming data protocols,
 and additional Security Scheme features like OAuth 2.0 Device Authorization
@@ -78,17 +78,11 @@ which includes links to key resource to help with upgrading to v3.2. Our
 community on what the v3.2 upgrade means.
 
 Completing v3.2 means we are now looking at what could appear in our next
-version and beyond, and the team is ramping up for further releases in 2026,
-with the possibility of a v3.3, covering improvements to Security Schemes and
-greater integration with MCP and AI protocols more generally.
-
-[Henry Andrews](https://github.com/handrews) has already pulled together a
-comprehensive overview of contributors suggestions of what could be in the next
-version, ready for feedback from and discussion with the community. If you want
-to look at what's in the frame, contribute more ideas, or just keep in touch
-head over to the
-[GitHub Discussion](https://github.com/OAI/OpenAPI-Specification/discussions/5116)
-on the topic.
+version and beyond, and the team is ramping up for further releases, with a view
+to v3.3 that covers improvements to Security Schemes and greater integration
+with MCP and AI protocols more generally. If you want to find out more, please
+checkout the Discussions on the OpenAPI Specification
+[repository](https://github.com/OAI/OpenAPI-Specification/discussions).
 
 > Placeholder for Arazzo updates.
 
@@ -145,9 +139,9 @@ you use specifications published by the OpenAPI Initiative.
 
 Please get in touch on the Outreach channel on Slack if you would like to work
 with us to tell your story, to feature in the Ecosystem Spotlight section, or
-get involved with any of the initiatives described above. We’d also like from
-organizations, tooling makers, or community members for further reactions to our
-v3.2 release, and to share any stories in their adoption journey.
+get involved with any of the initiatives described above. We’d also like to hear
+from organizations, tooling makers, or community members for further reactions
+to our v3.2 release, and to share any stories in their adoption journey.
 
 Until next time, and happy holidays!
 

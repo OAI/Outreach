@@ -84,15 +84,14 @@ with MCP and AI protocols more generally. If you want to find out more, please
 checkout the Discussions on the OpenAPI Specification
 [repository](https://github.com/OAI/OpenAPI-Specification/discussions).
 
-Work has already started for an Arazzo Specification v1.1.0 release, with
-perhaps the most significant change being the addition of support for AsyncAPI.
-AsyncAPI support will provide the means to describe workflows for both
-HTTP-based and message-orientated APIs, providing a significant uplift to how
-Arazzo can describe sequences of API operations with different architectural
-styles. Other planned enhancements include improvements to JSONPath and XPath
-support, and a number of fixes identified since v1.0.1. You can find out more
-about the plans for v1.1.0
-[here](https://github.com/OAI/Arazzo-Specification/discussions/379).
+Work has also started for an Arazzo Specification v1.1.0 release, with perhaps
+the most significant change being the addition of support for AsyncAPI. AsyncAPI
+support will provide the means to describe workflows for both HTTP-based and
+message-orientated APIs, providing a significant uplift to how Arazzo can
+describe sequences of API operations with different architectural styles. Other
+planned enhancements include improvements to JSONPath and XPath support, and a
+number of fixes identified since v1.0.1. You can find out more about the plans
+for v1.1.0 [here](https://github.com/OAI/Arazzo-Specification/discussions/379).
 
 Overlay is also gearing up for a v1.1.0 release, with several features in the
 frame such as clarifications to format interoperability and a new Parameter

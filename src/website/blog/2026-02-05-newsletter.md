@@ -66,8 +66,8 @@ obviously the key theme, but the role of AI, standards such as MCP, AI and
 agentic security, and the intersection between agents and APIs being key talking
 points throughout.
 
-OAI hosted our own sub-conference, hosted by
-[Erik Wilde](https://www.linkedin.com/in/erikwilde/) and
+OAI [hosted our own sub-conference](https://conference.openapis.org/paris2025/),
+hosted by [Erik Wilde](https://www.linkedin.com/in/erikwilde/) and
 [Frank Kilcommins](https://www.linkedin.com/in/frank-kilcommins/) with a stellar
 line-up from the OAI community and huge interest from the community with a
 packed conference room for most sessions. We saw speakers such as
@@ -82,11 +82,11 @@ for public sector APIs.
 
 This year we'll be keeping our focus on our successful partnership with FOST
 whilst continuing to develop new relationships with other conferences. To that
-end our first conference of the year is the OpenAPI Summit at
+end our first conference of the year is the [OpenAPI Summit](https://conference.openapis.org/paris2025/) at
 [DeveloperWeek, San Jose](https://www.developerweek.com/conference/openapi-summit/),
 with a full day of speakers focusing on all things OAI and AI. We have
-[Henry Andrews](https://github.com/handrews) providing an overview of v3.2 of
-OpenAPI, [Sumit Amar](https://www.linkedin.com/in/samar/) focusing on using AI
+[Henry Andrews](https://github.com/handrews) providing an overview of
+OpenAPI 3.2, [Sumit Amar](https://www.linkedin.com/in/samar/) focusing on using AI
 tools like Copilot and Cursor to automate API design, development, testing, and
 observability, and
 [Kuldeepak Angrish](https://www.linkedin.com/in/kuldeepakangrish/) and

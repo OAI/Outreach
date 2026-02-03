@@ -19,7 +19,7 @@ We've made a great start to 2026 in the Overlay world with completion of version
 1.1.0 brings several new features, including a new `copy` property for the
 Action Object, which can be used to copy or move an element in the OpenAPI
 document. This property is great for operations where you may already have a
-source-of-truth embedded in part of you API description, and want to use it
+source-of-truth embedded in part of your API description, and want to use it
 across all operations. For example, you might implement a `default` Response
 Object and wish to copy it to all Operation responses for consistency for API
 consumers.

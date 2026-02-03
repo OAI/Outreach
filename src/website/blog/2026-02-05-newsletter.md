@@ -44,7 +44,7 @@ The
 [Moonwalk Special Interest Group](https://github.com/OAI/sig-moonwalk/discussions)
 (SIG) has also entered 2026 with a new focus. The SIG will continue to explore
 concepts that go beyond the current OpenAPI v3 Specification, with a particular
-focus in the first 6 months of 2026 on how OpenAPI relates to large language
+focus in the first six months of 2026 on how OpenAPI relates to large language
 models (LLMs) as a new class of API clients. The groups aims to investigate what
 additional metadata or structural information might be needed in OpenAPI
 documents to make them more “agent-ready” for LLM use, including capability

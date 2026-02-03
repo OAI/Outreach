@@ -21,7 +21,7 @@ Action Object, which can be used to copy or move an element in the OpenAPI
 document. This property is great for operations where you may already have a
 source-of-truth embedded in part of your API description, and want to use it
 across all operations. For example, you might implement a `default` Response
-Object and wish to copy it to all Operation responses for consistency for API
+Object and wish to copy it to all Operation responses to give more consistency for API
 consumers.
 
 Other improvements include the ability to `update` primitive values - strings,

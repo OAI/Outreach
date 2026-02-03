@@ -142,7 +142,7 @@ your own APIs at https://jentic.com/scorecard._
 of specification updates, collaboration with industry verticals and software
 foundations who rely on OAI specifications, and the exploration into greater
 compatibility with AI and agentic tooling. As ever, we are always on the lookout
-for new members, so if you are thinking of getting involved becoming a member is
+for new members, so if you are thinking of getting involved, becoming a member is
 one way of contributing to the work OAI does. Head over to the
 [membership page](https://www.openapis.org/membershipjoin) on our website to
 find out more.

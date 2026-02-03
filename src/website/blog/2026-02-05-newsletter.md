@@ -75,7 +75,7 @@ packed conference room for most sessions. We saw speakers such as
 about API design in the context of AI-based design workflows,
 [Marjukka Niinioja](https://www.linkedin.com/in/marjukkaniinioja/) describe how
 to embed OpenAPI into daily workflows using Lean principles to eliminate API
-delivery waste., and
+delivery waste, and
 [Dimitri van Hees](https://www.linkedin.com/in/dimitrivanhees/) give an overview
 of the Dutch Government API developer portal and their OpenAPI-first approach
 for public sector APIs.

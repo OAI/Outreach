@@ -32,7 +32,7 @@ updated for full compliance with
 creating Overlay tools through guidance that is fully compatible with the latest
 JSONPath standards.
 
-If you want know more on the upgrade path from v1.0.0 to v1.1.0 you can use this
+To learn more about upgrading, use this
 [helpful guide](https://learn.openapis.org/upgrading/overlay-v1.0-to-v1.1.html).
 As always, new versions of our specifications are nothing without our community
 of contributors, so a _*huge*_ thanks to [Vincent Biret](https://linkedin.com/),

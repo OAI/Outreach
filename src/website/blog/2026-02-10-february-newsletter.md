@@ -1,12 +1,12 @@
 ---
-slug: 2026-02-05-february-oai-newsletter
-publication-date: 2026-02-05
+slug: 2026-02-10-february-oai-newsletter
+publication-date: 2026-02-10
 author: Chris Wood
 ---
 
-# OpenAPI Initiative Newsletter – February 2025
+# OpenAPI Initiative Newsletter – February 2026
 
-Welcome to the OpenAPI Initiative (OAI) February 2025 newsletter!
+Welcome to the OpenAPI Initiative (OAI) February 2026 newsletter!
 
 This is our first newsletter of 2026, and there is already plenty to share from
 the OAI community.
@@ -21,8 +21,8 @@ Action Object, which can be used to copy or move an element in the OpenAPI
 document. This property is great for operations where you may already have a
 source-of-truth embedded in part of your API description, and want to use it
 across all operations. For example, you might implement a `default` Response
-Object and wish to copy it to all Operation responses to give more consistency for API
-consumers.
+Object and wish to copy it to all Operation responses to give more consistency
+for API consumers.
 
 Other improvements include the ability to `update` primitive values - strings,
 integers, and so on - rather than updating the parent object, making Overlay
@@ -35,10 +35,12 @@ JSONPath standards.
 To learn more about upgrading, use this
 [helpful guide](https://learn.openapis.org/upgrading/overlay-v1.0-to-v1.1.html).
 As always, new versions of our specifications are nothing without our community
-of contributors, so a _*huge*_ thanks to [Vincent Biret](https://linkedin.com/),
-[Lorna Mitchell](https://linkedin.com/), [Ralf Handl](https://linkedin.com/),
-and [Michael Kistler](https://linkedin.com/) for contributions, reviews, and
-support.
+of contributors, so a _*huge*_ thanks to
+[Vincent Biret](https://www.linkedin.com/in/vincentbiret/),
+[Lorna Mitchell](https://www.linkedin.com/in/lornajane/),
+[Ralf Handl](https://www.linkedin.com/in/ralfhandl/), and
+[Michael Kistler](https://www.linkedin.com/in/michael-kistler/) for
+contributions, reviews, and support.
 
 The
 [Moonwalk Special Interest Group](https://github.com/OAI/sig-moonwalk/discussions)
@@ -55,7 +57,36 @@ this initiative [here](https://github.com/OAI/sig-moonwalk/discussions/219).
 
 As always, initiatives as important as this do not create themselves (whatever
 the capabilities of AI), so the Moonwalk SIG is looking for new contributors and
-hosts to help in this important work.
+hosts to help in this important work. The Moonwalk SIG is every Tuesday at 1700
+GMT / 0900 PST, with the agenda for each meeting published on the GitHub
+Discussions link above.
+
+Building on the success of v3.2, and the continued great feedback we are getting
+from the community, we are looking to enhance our coverage of important API
+security specification in future versions, including the
+[FAPI Security Profile](https://openid.net/wg/fapi/), which is commonly used in
+open banking and open finance, and [AuthZEN](https://openid.net/wg/authzen/). We
+also have the
+[Industry Standards Special Interest Group](https://github.com/OAI/sig-industry-standards),
+which looks specifically at industry collaboration and how OAI specifications
+can meet the needs of API providers across a range of verticals. If you are
+interested in taking part the Industry Standards SIG to help foster
+collaboration across industries join the channel in
+[Slack](https://open-api.slack.com/archives/C05UCEVL7M1). You can also read the
+draft work plan for 2026
+[here](https://docs.google.com/document/d/1jAVdH_3D94VbNYDM06OvCl0TEUYyeurN_pHhGAp3THs/edit?usp=sharing)
+to learn more about the goals of the SIG. SIG meetings are on Mondays at 1730
+GMT / 0930 PST and are bi-weekly.
+
+2026 promises to be another exciting year for OAI, with the growing opportunity
+of specification updates, collaboration with industry verticals and software
+foundations who rely on OAI specifications, and the exploration into greater
+compatibility with AI and agentic tooling. We are always on the lookout for new
+members, so if you are thinking of getting involved, becoming a member is one
+way of contributing to the work OAI does if you are unable to contribute through
+specification maintenance or taking part in SIGs. Head over to the
+[membership page](https://www.openapis.org/membershipjoin) on our website to
+find out more.
 
 ### Events News
 
@@ -78,7 +109,9 @@ to embed OpenAPI into daily workflows using Lean principles to eliminate API
 delivery waste, and
 [Dimitri van Hees](https://www.linkedin.com/in/dimitrivanhees/) give an overview
 of the Dutch Government API developer portal and their OpenAPI-first approach
-for public sector APIs.
+for public sector APIs. Frank and
+[Chris Wood](https://www.linkedin.com/in/sensiblewood) also talked on the Travel
+Tech sub-conference, discussing Arazzo in the context of travel API workflows.
 
 This year we'll be keeping our focus on our successful partnership with FOST
 whilst continuing to develop new relationships with other conferences. To that
@@ -93,7 +126,8 @@ observability, and
 [Budha Bhattacharya](https://www.linkedin.com/in/budha-b/) discussing how API
 standards and governance create the foundation for AI-readiness before
 implementing LLMs or MCP. Head over to our dedicated
-[Events site](https://conference.openapis.org/) for more details.
+[Events site](https://conference.openapis.org/) for more details, including the
+sign-up link for Developer Week.
 
 We also have Apidays Singapore, New York, and Munich - and of course Paris -
 already lined-up for this year. Stay tuned the newsletter and updated on our
@@ -103,6 +137,8 @@ details as they are finalized!
 
 ### Ecosystem Spotlight: Jentic AI-Readiness Scorecard
 
+Our Ecosystem Spotlight focuses on the work of OAI members and the OAI community
+in general in using OAI specifications in tooling, products, and experiences.
 The Ecosystem Spotlight in this newsletter is provided by
 [Jentic](https://jentic.com), an OAI member who leverages both OpenAPI and
 Arazzo to provide deterministic and reliable agentic workflows.
@@ -136,16 +172,7 @@ teams move from insights to actionable fixes."_
 _You can learn more about the scoring framework, and/or try it for free with
 your own APIs at https://jentic.com/scorecard._
 
-### The Outlook for 2026
-
-2026 promises to be another exciting year for OAI, with the growing opportunity
-of specification updates, collaboration with industry verticals and software
-foundations who rely on OAI specifications, and the exploration into greater
-compatibility with AI and agentic tooling. As ever, we are always on the lookout
-for new members, so if you are thinking of getting involved, becoming a member is
-one way of contributing to the work OAI does. Head over to the
-[membership page](https://www.openapis.org/membershipjoin) on our website to
-find out more.
+### Finally
 
 Thank you for reading our newsletter. As always, we welcome suggestions on how
 we can improve it or bring you information that can help make the most of how
@@ -158,3 +185,9 @@ members who have success stories to tell, so we can celebrate their successes on
 the blog.
 
 Until next time!
+
+Contributors: [Frank Kilcommins](https://www.linkedin.com/in/frank-kilcommins/),
+[Henry Andrews](https://github.com/handrews),
+[Lorna Mitchell](https://www.linkedin.com/in/lornajane/),
+[Ruth Cheesley](https://www.linkedin.com/in/ruthcheesley/),
+[Chris Wood](https://www.linkedin.com/in/sensiblewood).

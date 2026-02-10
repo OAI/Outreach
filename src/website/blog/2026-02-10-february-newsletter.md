@@ -113,6 +113,10 @@ for public sector APIs. Frank and
 [Chris Wood](https://www.linkedin.com/in/sensiblewood) also talked on the Travel
 Tech sub-conference, discussing Arazzo in the context of travel API workflows.
 
+<figure>
+  <img src="./images/2026-02-10-february-newsletter-image-01.jpg" alt="Frank Kilcommins at Apidays Paris 2026"><figcaption style="text-align: center;margin-bottom: 15px">Frank Kilcommins at Apidays Paris 2026 Talking Arazzo and AI Agents</figcaption>
+</figure>
+
 This year we'll be keeping our focus on our successful partnership with FOST
 whilst continuing to develop new relationships with other conferences. To that
 end our first conference of the year is the OpenAPI Summit at
@@ -160,6 +164,11 @@ where improvements yield the highest gains for both human developers and AI
 agents. Analysis of 1,500+ APIs revealed consistent obstacles: missing server
 definitions, authentication buried in prose rather than the spec, sparse or
 contradictory examples, and broken schema references._
+
+<figure>
+  <img src="./images/2026-02-10-february-newsletter-image-02.jpg" alt="Jentic AI Scorecard Display showing dials in results">
+  <figcaption style="text-align: center;margin-bottom: 15px">Jentic AI-Readiness Scorecard</figcaption>
+</figure>
 
 _"AI systems don't just scan API descriptions; they must interpret, reason, and
 act on them reliably," notes Frank Kilcommins, Head of Enterprise Architecture

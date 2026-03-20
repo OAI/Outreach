@@ -19,7 +19,7 @@ jobs:
         env:
           PR_BODY: ${{ github.event.pull_request.body }}
         run: |
-          ISSUE_NUMBER=$(echo "$PR_BODY" | grep -ioP '(closes|fixes|resolves)\s+#\K[0-9]+' | head -1)
+          ISSUE_NUMBER=$(echo "$PR_BODY" | grep -ioP '(closes|fixes|resolves)\s+#[0-9]+' | grep -oP '[0-9]+$' | head -1)
           if [ -z "$ISSUE_NUMBER" ]; then
             echo "::error::No linked issue found in PR body. Add 'Closes #N' to link this PR to an issue."
             exit 1

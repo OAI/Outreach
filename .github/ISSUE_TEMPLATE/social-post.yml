@@ -1,0 +1,40 @@
+name: Social Post
+description: Request or propose a LinkedIn social post
+title: "[Social] "
+labels: ["social-post"]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Topic / Subject
+      description: What is this post about?
+      placeholder: e.g. Announcing the v3.2.0 OpenAPI Specification release
+    validations:
+      required: true
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: A brief summary of the post's intent and key message. This is not the post copy, which is included in the PR.
+      placeholder: e.g. Celebrate the v3.2.0 release, highlight the new Webhooks support, and link to the blog post.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - LinkedIn
+    validations:
+      required: true
+
+  - type: input
+    id: publication-date
+    attributes:
+      label: Desired Publication Date
+      description: When should this post go live? Use YYYY-MM-DD or a rough timeframe.
+      placeholder: e.g. 2026-04-01 or "early April"
+    validations:
+      required: false

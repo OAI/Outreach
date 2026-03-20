@@ -1,0 +1,167 @@
+name: Social Post Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'src/social/**'
+
+permissions:
+  pull-requests: read
+  issues: read
+
+jobs:
+  triage-to-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Extract linked issue number
+        id: issue
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          ISSUE_NUMBER=$(echo "$PR_BODY" | grep -ioP '(closes|fixes|resolves)\s+#\K[0-9]+' | head -1)
+          if [ -z "$ISSUE_NUMBER" ]; then
+            echo "::error::No linked issue found in PR body. Add 'Closes #N' to link this PR to an issue."
+            exit 1
+          fi
+          echo "number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
+
+      - name: Parse project URL
+        id: project
+        env:
+          PROJECT_URL: ${{ vars.OAI_PROJECT_URL }}
+        run: |
+          if [ -z "$PROJECT_URL" ]; then
+            echo "::error::OAI_PROJECT_URL variable is not set."
+            exit 1
+          fi
+          ORG=$(echo "$PROJECT_URL" | sed -n 's|https://github.com/orgs/\([^/]*\)/.*|\1|p')
+          PROJECT_NUMBER=$(echo "$PROJECT_URL" | sed -n 's|.*/projects/\([0-9]*\)|\1|p')
+          if [ -z "$ORG" ] || [ -z "$PROJECT_NUMBER" ]; then
+            echo "::error::Could not parse ORG or PROJECT_NUMBER from OAI_PROJECT_URL: $PROJECT_URL"
+            exit 1
+          fi
+          echo "org=$ORG" >> "$GITHUB_OUTPUT"
+          echo "number=$PROJECT_NUMBER" >> "$GITHUB_OUTPUT"
+
+      - name: Add issue to project and set status to In Review
+        env:
+          GH_TOKEN: ${{ secrets.PROJECT_GITHUB_TOKEN }}
+          ORG: ${{ steps.project.outputs.org }}
+          PROJECT_NUMBER: ${{ steps.project.outputs.number }}
+          ISSUE_NUMBER: ${{ steps.issue.outputs.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          # a. Get project node ID
+          PROJECT_RESPONSE=$(gh api graphql -f query='
+            query($org: String!, $number: Int!) {
+              organization(login: $org) {
+                projectV2(number: $number) {
+                  id
+                }
+              }
+            }' -f org="$ORG" -F number="$PROJECT_NUMBER")
+
+          if echo "$PROJECT_RESPONSE" | jq -e '.errors' > /dev/null 2>&1; then
+            echo "::error::Failed to fetch project: $(echo "$PROJECT_RESPONSE" | jq -r '.errors[0].message')"
+            exit 1
+          fi
+          PROJECT_ID=$(echo "$PROJECT_RESPONSE" | jq -r '.data.organization.projectV2.id')
+
+          # b. Get issue node ID
+          REPO_OWNER=$(echo "$REPO" | cut -d'/' -f1)
+          REPO_NAME=$(echo "$REPO" | cut -d'/' -f2)
+          ISSUE_RESPONSE=$(gh api graphql -f query='
+            query($owner: String!, $repo: String!, $number: Int!) {
+              repository(owner: $owner, name: $repo) {
+                issue(number: $number) {
+                  id
+                }
+              }
+            }' -f owner="$REPO_OWNER" -f repo="$REPO_NAME" -F number="$ISSUE_NUMBER")
+
+          if echo "$ISSUE_RESPONSE" | jq -e '.errors' > /dev/null 2>&1; then
+            echo "::error::Failed to fetch issue: $(echo "$ISSUE_RESPONSE" | jq -r '.errors[0].message')"
+            exit 1
+          fi
+          ISSUE_ID=$(echo "$ISSUE_RESPONSE" | jq -r '.data.repository.issue.id')
+
+          # c. Add issue to project (idempotent)
+          ADD_RESPONSE=$(gh api graphql -f query='
+            mutation($project: ID!, $item: ID!) {
+              addProjectV2ItemById(input: {projectId: $project, contentId: $item}) {
+                item {
+                  id
+                }
+              }
+            }' -f project="$PROJECT_ID" -f item="$ISSUE_ID")
+
+          if echo "$ADD_RESPONSE" | jq -e '.errors' > /dev/null 2>&1; then
+            echo "::error::Failed to add issue to project: $(echo "$ADD_RESPONSE" | jq -r '.errors[0].message')"
+            exit 1
+          fi
+          ITEM_ID=$(echo "$ADD_RESPONSE" | jq -r '.data.addProjectV2ItemById.item.id')
+
+          # d. Find Status field ID and "In Review" option ID
+          FIELDS_RESPONSE=$(gh api graphql -f query='
+            query($project: ID!) {
+              node(id: $project) {
+                ... on ProjectV2 {
+                  fields(first: 20) {
+                    nodes {
+                      ... on ProjectV2SingleSelectField {
+                        id
+                        name
+                        options {
+                          id
+                          name
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }' -f project="$PROJECT_ID")
+
+          if echo "$FIELDS_RESPONSE" | jq -e '.errors' > /dev/null 2>&1; then
+            echo "::error::Failed to fetch project fields: $(echo "$FIELDS_RESPONSE" | jq -r '.errors[0].message')"
+            exit 1
+          fi
+
+          STATUS_FIELD_ID=$(echo "$FIELDS_RESPONSE" | jq -r '
+            .data.node.fields.nodes[]
+            | select(.name == "Status")
+            | .id')
+          IN_REVIEW_OPTION_ID=$(echo "$FIELDS_RESPONSE" | jq -r '
+            .data.node.fields.nodes[]
+            | select(.name == "Status")
+            | .options[]
+            | select(.name == "In Review")
+            | .id')
+
+          if [ -z "$STATUS_FIELD_ID" ] || [ -z "$IN_REVIEW_OPTION_ID" ]; then
+            echo "::error::Could not find Status field or 'In Review' option in project."
+            exit 1
+          fi
+
+          # e. Set status to "In Review"
+          UPDATE_RESPONSE=$(gh api graphql -f query='
+            mutation($project: ID!, $item: ID!, $field: ID!, $option: String!) {
+              updateProjectV2ItemFieldValue(input: {
+                projectId: $project,
+                itemId: $item,
+                fieldId: $field,
+                value: { singleSelectOptionId: $option }
+              }) {
+                projectV2Item {
+                  id
+                }
+              }
+            }' -f project="$PROJECT_ID" -f item="$ITEM_ID" -f field="$STATUS_FIELD_ID" -f option="$IN_REVIEW_OPTION_ID")
+
+          if echo "$UPDATE_RESPONSE" | jq -e '.errors' > /dev/null 2>&1; then
+            echo "::error::Failed to update item status: $(echo "$UPDATE_RESPONSE" | jq -r '.errors[0].message')"
+            exit 1
+          fi
+
+          echo "Issue #$ISSUE_NUMBER added to project and set to 'In Review'."

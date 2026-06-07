@@ -95,7 +95,19 @@ Agents and AI more generally with features that support automation and autonomy.
 If you want to get involved - either by helping with the authoring, or bringing
 fresh ideas or expertise to the community - you can come and join the
 specification meetings for OpenAPI, Arazzo, and Overlay on our
-[Community Calendar](https://www.openapis.org/get-involved/about).
+[Community Calendar](https://www.openapis.org/get-involved/about). If you can't
+make the meetings you can also get keep in touch, ask questions, or suggest
+ideas on Slack, using the
+[#spec](https://open-api.slack.com/archives/C1137F8HF),
+[#arazzo](https://open-api.slack.com/archives/C022K8VD7AP), and
+[#overlays](https://open-api.slack.com/archives/C023Y5YJ474) channels.
+
+Finally, each specification is open to discussions on Github, so you can also
+raise ideas or contribute there. See the
+[OpenAPI](https://github.com/OAI/OpenAPI-Specification/discussions),
+[Arazzo](https://github.com/OAI/Arazzo-Specification/discussions), and
+[Overlay](https://github.com/OAI/Overlay-Specification/discussions) repository
+discussions for more details.
 
 ### Events News
 
@@ -178,8 +190,8 @@ needs of the community more readily.
 
 You can in touch by:
 
-- Using the #outreach channel on
-  [Slack](https://open-api.slack.com/archives/C0KM0KXU6).
+- Using the [#outreach](https://open-api.slack.com/archives/C0KM0KXU6) channel
+  on Slack.
 - Emailing us at [outreach@openapis.org](mailto:outreach@openapis.org).
 - Getting in touch at our
   [LinkedIn page](https://www.linkedin.com/company/open-api-initiative).
@@ -194,4 +206,5 @@ you use specifications published by OAI.
 
 Until next time!
 
-Contributors: [Chris Wood](https://linkedin.com/in/sensiblewood)
+Contributors: [Chris Wood](https://linkedin.com/in/sensiblewood),
+[Karen Etheridge](https://github.com/karenetheridge)

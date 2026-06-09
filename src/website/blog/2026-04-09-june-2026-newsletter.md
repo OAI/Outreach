@@ -18,7 +18,7 @@ number of items in scope.
 
 Firstly, the team is investigating a concept that we're calling "Standardized API Features",
 or SAFs. As the name suggests SAFs are intended to provide a mechanism for
-characterizing features of OAS in two ways, namely: the feature has standardised
+characterizing features of OAS according to two properties, namely: the feature has standardised
 behavior defined by an external specification (such as an RFC), and it requires
 an exception to the normal rules for describing API operations in OAS. Cookies
 are the clearest example: their behavior is defined by RFC 6265, and they need

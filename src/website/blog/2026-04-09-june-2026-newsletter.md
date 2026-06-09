@@ -23,7 +23,7 @@ behavior defined by an external specification (such as an RFC), and it requires
 an exception to the normal rules for describing API operations in OAS. Cookies
 are the clearest example: their behavior is defined by RFC 6265, and they need
 special treatment in OAS because the Cookie header cannot simply be described
-using the standard parameter approach.
+using the standard header parameter approach.
 
 The SAF concept is therefore intended to help the specification community learn
 from past design mistakes and reason more clearly about which API features

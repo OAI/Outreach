@@ -16,7 +16,7 @@ across the OpenAPI, Arazzo, and Overlay specifications and the wider community.
 The OpenAPI Specification (OAS) team is evaluating changes for v3.3, with a
 number of items in scope.
 
-Firstly, the team is investigating a concept called "Standardized API Features",
+Firstly, the team is investigating a concept that we're calling "Standardized API Features",
 or SAFs. As the name suggests SAFs are intended to provide a mechanism for
 characterizing features of OAS in two ways, namely: the feature has standardised
 behavior defined by an external specification (such as an RFC), and it requires

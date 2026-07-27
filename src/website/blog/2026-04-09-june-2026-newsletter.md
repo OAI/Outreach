@@ -16,14 +16,15 @@ across the OpenAPI, Arazzo, and Overlay specifications and the wider community.
 The OpenAPI Specification (OAS) team is evaluating changes for v3.3, with a
 number of items in scope.
 
-Firstly, the team is investigating a concept that we're calling "Standardized API Features",
-or SAFs. As the name suggests SAFs are intended to provide a mechanism for
-characterizing features of OAS according to two properties, namely: the feature has standardised
-behavior defined by an external specification (such as an RFC), and it requires
-an exception to the normal rules for describing API operations in OAS. Cookies
-are the clearest example: their behavior is defined by RFC 6265, and they need
-special treatment in OAS because the Cookie header cannot simply be described
-using the standard header parameter approach.
+Firstly, the team is investigating a concept that we're calling "Standardized
+API Features", or SAFs. As the name suggests SAFs are intended to provide a
+mechanism for characterizing features of OAS according to two properties,
+namely: the feature has standardized behavior defined by an external
+specification (such as an RFC), and it requires an exception to the normal rules
+for describing API operations in OAS. Cookies are the clearest example: their
+behavior is defined by RFC 6265, and they need special treatment in OAS because
+the Cookie header cannot simply be described using the standard header parameter
+approach.
 
 The SAF concept is therefore intended to help the specification community learn
 from past design mistakes and reason more clearly about which API features
@@ -42,7 +43,7 @@ and
 a Security Profile might look like, and the work on SAF will help shape how this
 is introduced.
 
-### Arazzo Specification
+### Arazzo Specification
 
 The Arazzo Specification v1.1.0 has also been
 [released](https://www.openapis.org/blog/2026/05/19/announcing-arazzo-specification-1-1).
@@ -76,10 +77,10 @@ across documents. As a framework for implementing automated pipelines this
 feature is key, as it ensures that Overlay documents provide the full corpus of
 knowledge for the pipeline.
 
-The release date for v1.2.0 is yet to be fixed, but we'll keep you up to date
-with news on the release.
+The release date and final scope for v1.2.0 is yet to be fixed, but we'll keep
+you up to date with news on the release.
 
-### Getting Involved
+### Getting Involved
 
 We want to acknowledge the efforts of our specification team members and
 community in bringing these releases together. Many hours are spent in ideation,
@@ -207,4 +208,5 @@ you use specifications published by OAI.
 Until next time!
 
 Contributors: [Chris Wood](https://linkedin.com/in/sensiblewood),
-[Karen Etheridge](https://github.com/karenetheridge)
+[Karen Etheridge](https://github.com/karenetheridge),
+[Henry Andrews](https://www.linkedin.com/in/handrews/)

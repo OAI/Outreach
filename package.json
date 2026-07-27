@@ -1,11 +1,11 @@
 {
-  "name": "Outreach",
+  "name": "outreach",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:OAI/Outreach.git",
-  "author": "Chris Wood <chris@arborcomputing.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "convert:markdown:html": "./bin/pandoc-wrapper.sh markdown html"
-  }
+    "convert:markdown": "./scripts/pandoc-wrapper.sh"
+  },
+  "packageManager": "yarn@4.14.1+sha512.64df448055b2d37ba269d7db535a469b8da93f8ef1140c25fd7a83c00a8fbaacb214ca0e02553b92a2c54cef78bb67d0b4817fab02001df0e24fac0faccc3b42"
 }
